@@ -65,8 +65,8 @@
         "description": "a container",
         "children": {
           "SettingsSidebar": {
-            "count": 1,
-            "location": "top left inside Settings component just below the HeaderOne ",
+            "count": 2,
+            "location": " top left inside Settings component just below the HeaderOne , Second one below the SettingSidebar and tearms&condition ",
             "description": "It contains listItem of TabBtn",
             "children": {
               "TabBtn": {
@@ -90,7 +90,7 @@
       },
       "sizing_updates": [".."],
       "Author": {
-        "screen_and_layout_augmentations": [""]
+        "screen_and_layout_augmentations": ["added SettingsSidebar  "]
       }
     }
   }

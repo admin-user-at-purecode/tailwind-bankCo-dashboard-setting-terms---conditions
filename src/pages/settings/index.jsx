@@ -11,6 +11,7 @@ function Settings() {
           <TermsAndCondition />
         </div>
       </div>
+      <SettingsSidebar />
     </main>
   );
 }
