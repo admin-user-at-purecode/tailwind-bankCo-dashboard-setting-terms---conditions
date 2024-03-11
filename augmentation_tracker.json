@@ -80,17 +80,12 @@
                 "description": "it shows the percentage of profile completion"
               }
             }
-          },
-          "TermsAndCondition": {
-            "count": 1,
-            "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
-            "description": "It's represents the content about tearm and condition"
           }
         }
       },
       "sizing_updates": [".."],
       "Author": {
-        "screen_and_layout_augmentations": [""]
+        "screen_and_layout_augmentations": ["removed the TermsAndCondition component"]
       }
     }
   }
