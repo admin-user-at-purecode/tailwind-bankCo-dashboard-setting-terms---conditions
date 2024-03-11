@@ -19,8 +19,7 @@
       "SidebarV2",
       "SettingsSidebar",
       "TermsAndCondition",
-      "Progressbar",
-      "TabBtn"
+      "Progressbar"
     ],
     "component_information": {
       "HeaderOne": {
@@ -69,11 +68,6 @@
             "location": "top left inside Settings component just below the HeaderOne ",
             "description": "It contains listItem of TabBtn",
             "children": {
-              "TabBtn": {
-                "count": 4,
-                "location": "top left side of the Settings component inside SettingsSidebar",
-                "description": "a type of link"
-              },
               "Progressbar": {
                 "count": 1,
                 "location": "At the bottom of SettingsSidebar",
@@ -90,7 +84,7 @@
       },
       "sizing_updates": [".."],
       "Author": {
-        "screen_and_layout_augmentations": [""]
+        "screen_and_layout_augmentations": ["removed the TabBtn from the SettingsSidebar"]
       }
     }
   }
