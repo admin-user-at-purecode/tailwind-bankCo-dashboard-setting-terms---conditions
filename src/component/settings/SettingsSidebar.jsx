@@ -1,4 +1,3 @@
-import Progressbar from "../chart/Progressbar";
 import TabBtn from "../button/TabBtn";
 
 function SettingsSidebar() {
@@ -168,10 +167,6 @@ function SettingsSidebar() {
             />
           </svg>
         </TabBtn>
-      </div>
-      {/* Progressbar  */}
-      <div className="px-8">
-        <Progressbar className="bg-bgray-200 dark:bg-darkblack-500 p-7 rounded-xl" />
       </div>
     </aside>
   );
