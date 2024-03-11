@@ -17,10 +17,7 @@
       "ResProfilePopup",
       "Sidebar",
       "SidebarV2",
-      "SettingsSidebar",
-      "TermsAndCondition",
-      "Progressbar",
-      "TabBtn"
+      "TermsAndCondition"
     ],
     "component_information": {
       "HeaderOne": {
@@ -64,33 +61,16 @@
         "location": "below the header component",
         "description": "a container",
         "children": {
-          "SettingsSidebar": {
-            "count": 1,
-            "location": "top left inside Settings component just below the HeaderOne ",
-            "description": "It contains listItem of TabBtn",
-            "children": {
-              "TabBtn": {
-                "count": 4,
-                "location": "top left side of the Settings component inside SettingsSidebar",
-                "description": "a type of link"
-              },
-              "Progressbar": {
-                "count": 1,
-                "location": "At the bottom of SettingsSidebar",
-                "description": "it shows the percentage of profile completion"
-              }
-            }
-          },
           "TermsAndCondition": {
             "count": 1,
-            "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
+            "location": "top right side of sidebar component just below the HeaderOne ",
             "description": "It's represents the content about tearm and condition"
           }
         }
       },
       "sizing_updates": [".."],
       "Author": {
-        "screen_and_layout_augmentations": [""]
+        "screen_and_layout_augmentations": ["removed the settings SettingsSidebar"]
       }
     }
   }
