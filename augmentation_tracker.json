@@ -4,17 +4,7 @@
       "background": "white"
     },
     "component_names": [
-      "HeaderOne",
-      "SearchBar",
-      "ModeToggler",
-      "ToggleBtn",
-      "NotificationPopup",
-      "MassagePopup",
-      "StorePopUp",
-      "Author",
-      "ProfilePopup",
       "HeaderTwo",
-      "ResProfilePopup",
       "Sidebar",
       "SidebarV2",
       "SettingsSidebar",
@@ -23,19 +13,7 @@
       "TabBtn"
     ],
     "component_information": {
-      "HeaderOne": {
-        "count": 1,
-        "location": "to the top of the container",
-        "description": "visible on the large screen",
-        "children": {
-          "SearchBar": {
-            "count": 1,
-            "location": "placed centered",
-            "description": "user can enter input"
-          }
-        },
-        "children_orientation_description": "flexed"
-      },
+
       "HeaderTwo": {
         "count": 1,
         "location": "to the top of the page",
@@ -90,7 +68,7 @@
       },
       "sizing_updates": [".."],
       "Author": {
-        "screen_and_layout_augmentations": [""]
+        "screen_and_layout_augmentations": ["Removed the HeaderOne"]
       }
     }
   }
