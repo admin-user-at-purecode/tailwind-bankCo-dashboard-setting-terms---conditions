@@ -110,13 +110,13 @@
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
-              "count": 4,
+              "count": 7,
               "location": "top left side of the Settings component inside SettingsSidebar",
               "description": "a type of link"
             },
             "Progressbar": {
-              "count": 1,
-              "location": "At the bottom of SettingsSidebar",
+              "count": 2,
+              "location": "At the top of SettingsSidebar , At the bottom of SettingsSidebar",
               "description": "it shows the percentage of profile completion"
             }
           }
@@ -133,7 +133,7 @@
     ],
     "Author": {
       "screen_and_layout_augmentations": [
-        ""
+        " added Progressbar"
       ]
     }
   }
