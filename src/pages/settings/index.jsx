@@ -11,6 +11,9 @@ function Settings() {
           <TermsAndCondition />
         </div>
       </div>
+      <div className="w-full bg-white p-10">
+        <TermsAndCondition />
+      </div>
     </main>
   );
 }
