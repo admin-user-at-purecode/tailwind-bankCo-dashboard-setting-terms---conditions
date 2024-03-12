@@ -1,9 +1,9 @@
-import Layout from "./component/layout";
+import Settings from "./pages/settings";
 
 function App() {
   return (
     <>
-      <Layout />
+      <Settings/>
     </>
   );
 }
