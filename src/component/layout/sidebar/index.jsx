@@ -115,8 +115,8 @@ function Sidebar({ handleActive }) {
                                         </div>
                                         <span
                                             className={`transition-all ${activeDashboard
-                                                    ? "-rotate-90"
-                                                    : "rotate-0"
+                                                ? "-rotate-90"
+                                                : "rotate-0"
                                                 }`}
                                         >
                                             <svg
