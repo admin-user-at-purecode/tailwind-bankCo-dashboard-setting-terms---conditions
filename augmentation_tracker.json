@@ -110,8 +110,8 @@
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
-              "count": 4,
-              "location": "top left side of the Settings component inside SettingsSidebar",
+              "count":14,
+              "location": " inside Settings component above the  progressbar ,  inside Settings component below the  progressbar  ",
               "description": "a type of link"
             },
             "Progressbar": {
@@ -133,7 +133,7 @@
     ],
     "Author": {
       "screen_and_layout_augmentations": [
-        ""
+        " added TabBtn "
       ]
     }
   }
