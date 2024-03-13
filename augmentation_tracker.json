@@ -122,8 +122,8 @@
           }
         },
         "TermsAndCondition": {
-          "count": 1,
-          "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
+          "count": 2,
+          "location": "top right side of  SettingsSidebar component just below the HeaderOne, top right side of  SettingsSidebar component ",
           "description": "It's represents the content about tearm and condition"
         }
       }
@@ -133,7 +133,7 @@
     ],
     "Author": {
       "screen_and_layout_augmentations": [
-        ""
+        "added TermsAndCondition"
       ]
     }
   }
