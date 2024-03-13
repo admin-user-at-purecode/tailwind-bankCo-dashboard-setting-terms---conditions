@@ -16,6 +16,7 @@
     "HeaderTwo",
     "ResProfilePopup",
     "Sidebar",
+    "ListItem",
     "SidebarV2",
     "SettingsSidebar",
     "TermsAndCondition",
@@ -88,7 +89,7 @@
       "location": "to the left of the page, fixed",
       "description": "collapsible, to the left, on toggled",
       "children": {
-        "menuItems": {
+        "ListItem": {
           "description": "list of menus in column that contains svg followed by menu in a flexed container"
         }
       }
@@ -110,7 +111,7 @@
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
-              "count": 4,
+              "count": 7,
               "location": "top left side of the Settings component inside SettingsSidebar",
               "description": "a type of link"
             },
@@ -127,14 +128,15 @@
           "description": "It's represents the content about tearm and condition"
         }
       }
-    },
-    "sizing_updates": [
-      ".."
-    ],
-    "Author": {
-      "screen_and_layout_augmentations": [
-        ""
-      ]
     }
-  }
+  },
+  "functionality": {
+    "": ""
+  },
+  "sizing_updates": [
+    ""
+  ],
+  "screen_and_layout_augmentations": [
+    ""
+  ]
 }
